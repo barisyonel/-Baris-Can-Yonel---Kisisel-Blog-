@@ -1,0 +1,85 @@
+/* Genel Ayarlar */
+.about {
+	background: #0a192f; /* Koyu mavi tonları */
+	color: white;
+	padding: 50px;
+	text-align: center;
+	font-family: "Fira Code", monospace; /* Kod yazı tipi */
+  }
+  
+  .intro {
+	font-size: 18px;
+	color: #ff79c6; /* Pembe ton */
+  }
+  
+  .title {
+	font-size: 38px;
+	font-weight: bold;
+	color: white;
+	margin-top: 10px;
+  }
+  
+  .title .highlight-green {
+	color: #50fa7b; /* Yeşil */
+  }
+  
+  .description {
+	font-size: 18px;
+	width: 80%;
+	line-height: 1.6;
+	margin-top: 20px;
+	color: #abb2bf; /* Açık gri */
+	padding-left: 10%;
+  }
+  
+  .description .highlight-blue {
+	color: #8be9fd; /* Açık mavi */
+  }
+  
+  .description .highlight-green {
+	color: #50fa7b; /* Yeşil */
+  }
+  
+  .description .highlight-yellow {
+	color: #f1fa8c; /* Sarı */
+  }
+  
+  .description .highlight-red {
+	color: #ff5555; /* Kırmızı */
+  }
+  
+  /* Yetkinlikler Bölümü */
+  .skills {
+	margin-top: 30px;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 10px;
+  }
+  
+  .skills-title {
+	font-size: 22px;
+	color: #50fa7b; /* Yeşil başlık */
+	margin-bottom: 10px;
+  }
+  
+  .skills-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+  }
+  
+  .skills-list li {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #ffffff;
+	transition: transform 0.3s ease-in-out;
+  }
+  
+  .skills-list li:hover {
+	transform: scale(1.1);
+  }
+  

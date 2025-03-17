@@ -1,0 +1,88 @@
+/* Navbar Genel */
+.navbar {
+	position: fixed;
+	top: 15px; /* Yukarıdan boşluk bırakıldı */
+	left: 50%;
+	transform: translateX(-50%);
+	width: 90%;
+	max-width: 1200px;
+	background: rgba(10, 25, 47, 0.9); /* Koyu mavi + şeffaflık */
+	backdrop-filter: blur(10px);
+	padding: 15px 40px; /* Daha geniş padding */
+	border-radius: 50px;
+	display: flex;
+	justify-content: space-between; /* Sol ve sağ hizalama */
+	align-items: center;
+	z-index: 1000;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+  }
+  
+  /* Menü Linkleri (Sola hizalanmış) */
+  .nav-links {
+	list-style: none;
+	display: flex;
+	gap: 30px; /* Linkler arası mesafe artırıldı */
+	margin-left: 0;
+  }
+  
+  .nav-links li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px; /* ✅ Yazılar büyütüldü */
+	font-weight: 600; /* Daha kalın yapıldı */
+	transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-links li a:hover {
+	color: #64ffda; /* Açık mavi vurgu */
+  }
+  
+  /* Sosyal Medya İkonları (Sağa hizalanmış) */
+  .social-icons {
+	display: flex;
+	gap: 20px; /* İkonlar arası mesafe artırıldı */
+	align-items: center;
+	margin-left: auto; /* Sağa ittir */
+  }
+  
+  .social-icons a {
+	color: white;
+	font-size: 24px; /* ✅ İkon boyutları büyütüldü */
+	transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+	color: #64ffda;
+  }
+  
+  /* Mobil Versiyon */
+  @media (max-width: 768px) {
+	.navbar {
+	  flex-direction: row;
+	}
+  
+	.nav-links {
+	  position: absolute;
+	  top: 60px;
+	  left: 50%;
+	  transform: translateX(-50%);
+	  background: rgba(10, 25, 47, 0.9);
+	  width: 250px;
+	  height: auto;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  padding: 15px;
+	  gap: 15px; /* Mobilde de mesafe artırıldı */
+	  border-radius: 10px;
+	}
+  
+	.social-icons {
+	  position: absolute;
+	  right: 20px; /* Sağa sabitlenmiş */
+	  top: 50%;
+	  transform: translateY(-50%);
+	}
+  }
+  

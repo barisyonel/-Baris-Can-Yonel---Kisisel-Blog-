@@ -28,5 +28,7 @@ Bu projede kullanılan başlıca teknolojiler şunlardır:
 
 ## 📷 Proje Görselleri
 
-![Proje Görseli 1](/screenshot1.png)
-![Proje Görseli 2](/screenshot2.png)
+## 📷 Proje Görselleri
+
+![Proje Görseli 1](public/screenshot1.png)
+![Proje Görseli 2](public/screenshot2.png)
